@@ -8,7 +8,7 @@ toaster = ToastNotifier() #para notificar al usuario que se ha realizado una pet
 search = input("Ingrese el nombre del producto: ")
 store = {}
 search_list = search.split()
-amazon_link = "https://www.amazon.es/"
+amazon_link = "https://amazon.in"
 
 url = amazon_link + "/s?k=" + "+" .join(search_list) + "&ref=nb_sb_noss"
 
